@@ -12,9 +12,6 @@ need_tag2=["AwardInstrument_Value","ProgramOfficer_SignBlockName","Investigator_
 need_tag3=["LongName","Abbreviation"]
 need_tag4=["Code"]
 
-# db = pymysql.connect("localhost", "root", "924815Tv", "KG_db",charset="utf8",port=3306,cursorclass=pymysql.cursors.Cursor)
-# cursor = db.cursor()
-# cursor.execute("use KG_db;")
 
 wrong=0
 cnt=1
