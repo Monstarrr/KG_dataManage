@@ -1,7 +1,7 @@
 import pymysql
 import os
 
-db = pymysql.connect("localhost", "root", "924815Tv", "KG_db",charset="utf8",port=3306,cursorclass=pymysql.cursors.Cursor)
+db = pymysql.connect("localhost", "root", "******", "KG_db",charset="utf8",port=3306,cursorclass=pymysql.cursors.Cursor)
 cursor = db.cursor()
 cursor.execute("use KG_db;")
 count=0
